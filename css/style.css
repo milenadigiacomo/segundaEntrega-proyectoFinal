@@ -268,18 +268,6 @@ grid-template-areas:"imguno"
     margin: 0 auto;
     padding: 0;
 }
-.div1{
-    background-color: #fadce8;
-}
-.div2{
-    background-color: #fadce8;
-}
-.div3{
-    background-color: #fadce8;
-}
-.div4{
-    background-color: #fadce8;
-}
 .centro{
     margin: 0 auto;
     padding-bottom: 40px;
@@ -290,4 +278,9 @@ grid-template-areas:"imguno"
 
 .marginFooter{
     margin-top: 40px;
+}
+.btn-mod {
+    color: rgb(250, 220, 232);
+    background-color: rgb(240, 74, 140);
+    border-color: rgb(240, 74, 140);
 }
