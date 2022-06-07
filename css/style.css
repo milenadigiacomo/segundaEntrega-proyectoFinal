@@ -284,3 +284,15 @@ grid-template-areas:"imguno"
     background-color: rgb(240, 74, 140);
     border-color: rgb(240, 74, 140);
 }
+@media print{
+    nav{
+        display: none;
+    }
+}
+h4:hover::after{
+    content: " ♥ ☺";
+}
+h4::selection{
+    background-color: rgb(240, 74, 140);
+    color: white;
+}
